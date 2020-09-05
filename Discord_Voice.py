@@ -260,4 +260,4 @@ async def next(ctx):
 
 
 token = os.environ.get('BOT_TOKEN')
-bot.run(TOKEN)
+bot.run(str(token))
